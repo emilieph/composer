@@ -6,3 +6,9 @@ USE App\Wcs\Hello;
 $hello = new Hello();
 
 echo $hello->talk();
+
+USE HelloWorld\SayHello;
+$SayHello = new SayHello();
+
+echo $SayHello-> world();
+
